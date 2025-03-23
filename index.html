@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  
+
+   
+    <meta name="description" content="" />
+  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="" />
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+
+    <link rel="stylesheet" href="styles2.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <title>Juha Vilkko Portfolio</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class="container">
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <a href="index.html"><h1>Juha Vilkko</h1></a>
+        
+        <nav>
+          <ul class="mainMenu">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+           <li> <label class="toggle-switch">
+              <input type="checkbox" id="darkModeToggle" />
+              <span class="slider">
+             
+              </span>
+            </label>
+          </li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-github"></i>
+            </span>
+          </ul>
+        </nav>
+     
+      </div>
+      
+    </header>
+    <div class="overlay hidden">
+      <div class="modal">
+        <button class="closeBtn">close</button>
+        <h2>I am modal</h2>
+        <p>
+          || Under construction, come back later for amazing new content ||
+        </p>
+        <div class="icons">
+          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section id="heroSection">
+        <h2>Juha Vilkko</h2>
+        <p>Hello, Im Juha, Im a Full Stack Developer. I am aiming for the stars and beyond</p>
+        <button class="modalBtn">See more</button>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <img
+              src="images/projects/projekti 1/projekti_mimosa copy.jpeg"
+              alt="project no.1"
+            />
+            <h3>Project1</h3>
+
+            <a href="#">See more</a>
+          </div>
+          <div class="project-card">
+            <img
+              src="images/projects/projekti 2/signUp-project.png"
+              alt="project no.2"
+            />
+            <h3>Sign Up Form</h3>
+
+            <a href="#">See more</a>
+          </div>
+          <div class="project-card">
+            <img
+              src="images/projects/projekti 3/pancake_project.png"
+              alt="Space Pancakes"
+            />
+            <h3>Pancake Maker</h3>
+
+            <a href="#">See more</a>
+          </div>
+        </div>
+
+      
+      </section>
+      <section id="about">
+        <div class="about-container">
+          <div class="about-content">
+            <h2>About me</h2>
+            <p>
+              Hi, I'm Juha, a passionate web developer with a love for creating interactive and user-friendly websites.
+            </p>
+            <p>I love solving problems and constantly learning new technologies. My goal is to build web experiences that are not only functional but also visually appealing.</p>
+          </div>
+          <img src="images/" alt="" />
+          <img
+            src="images/profile/brit_08.jpeg"
+            alt="Your Image"
+            class="about-img"
+          />
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact-content">
+          <h2>Contact me</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Your Name" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="Your Email" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                placeholder="Write something..."
+              ></textarea>
+            </div>
+            <button id="submit" type="submit">Send Email</button>
+          </div>
+          </form>
+
+
+          <button id="backToTopBtn"><i class="fas fa-arrow-up"></i></button>
+          <footer>
+
+            <p>Copyright &copy; Jay Wilco 2025</p>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -3,22 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles2.min.css" />
+    <link rel="stylesheet" href="styles2.css" />
     <title>Gallery</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <h1>Juha Vilkko</h1>
-        <h1>Welcome to my gallery</h1>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <a href="index.html"><h1>Juha Vilkko</h1></a>
+
         <nav>
-          <ul>
+          <ul class="mainMenu">
             <li><a href="index.html">Back to base</a></li>
+            <li>
+              <label class="toggle-switch">
+                <input type="checkbox" id="darkModeToggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
           </ul>
-          <label class="toggle-switch">
-            <input type="checkbox" id="darkModeToggle" />
-            <span class="slider"></span>
-          </label>
         </nav>
       </div>
     </header>
